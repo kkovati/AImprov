@@ -28,9 +28,10 @@ def play_midi_obj(midi_file):
     while pygame.mixer.music.get_busy():
         time.sleep(1)
 
+
 def main():
     midi_file = 'example.mid'
-    print(midi_file)
+    play_file(midi_file)
 
 
 if __name__ == '__main__':
